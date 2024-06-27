@@ -40,7 +40,7 @@ jobs:
           fi
         continue-on-error: true
 
-      - name: Release dotnet using Helm chart
+      - name: Release Django using Helm chart
         run: |
           release_name="django"
           helm repo update
